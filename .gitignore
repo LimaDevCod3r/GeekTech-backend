@@ -32,4 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 AGENTS.*
-AGENTS.PT*
+AGENTS_PT*
