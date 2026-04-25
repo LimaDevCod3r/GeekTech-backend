@@ -1,0 +1,7 @@
+CREATE TABLE animes (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(150) NOT NULL,
+    synopsis VARCHAR(2000) NOT NULL,
+    photo VARCHAR(500) NOT NULL,
+    CONSTRAINT pk_animes PRIMARY KEY (id)
+);
