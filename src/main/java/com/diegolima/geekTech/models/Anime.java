@@ -50,6 +50,10 @@ public class Anime {
     @Column(nullable = false, length = 500)
     private String photo;
 
+    @Size(max = 500)
+    @Column(name = "photo_public_id", length = 500)
+    private String photoPublicId;
+
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "created_by_user_id", nullable = false)
