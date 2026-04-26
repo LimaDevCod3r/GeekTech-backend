@@ -33,3 +33,4 @@ build/
 .vscode/
 AGENTS.*
 AGENTS_PT*
+.env
