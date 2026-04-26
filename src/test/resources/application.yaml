@@ -13,3 +13,8 @@ spring:
 jwt:
   secret: ${JWT_SECRET:dev-only-jwt-secret-change-me-before-production}
   expiration-hours: ${JWT_EXPIRATION_HOURS:2}
+
+admin:
+  name: ${ADMIN_NAME:Admin}
+  email: ${ADMIN_EMAIL:admin@geektech.com}
+  password: ${ADMIN_PASSWORD:admin12345}

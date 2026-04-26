@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:file:.env[.properties]
   application:
     name: geekTech
   datasource:
@@ -16,3 +18,8 @@ spring:
 jwt:
   secret: ${JWT_SECRET}
   expiration-hours: ${JWT_EXPIRATION_HOURS}
+
+admin:
+  name: ${ADMIN_NAME}
+  email: ${ADMIN_EMAIL}
+  password: ${ADMIN_PASSWORD}
