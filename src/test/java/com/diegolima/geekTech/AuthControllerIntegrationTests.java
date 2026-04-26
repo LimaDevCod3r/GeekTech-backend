@@ -86,6 +86,7 @@ class AuthControllerIntegrationTests {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.info.title").value("GeekTech API"))
                 .andExpect(jsonPath("$.paths['/auth/register']").exists())
-                .andExpect(jsonPath("$.paths['/auth/login']").exists());
+                .andExpect(jsonPath("$.paths['/auth/login']").exists())
+                .andExpect(jsonPath("$.paths['/anime']").exists());
     }
 }

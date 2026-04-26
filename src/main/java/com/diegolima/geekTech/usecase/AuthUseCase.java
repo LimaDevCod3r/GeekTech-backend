@@ -8,6 +8,7 @@ import com.diegolima.geekTech.dtos.response.UserResponseDTO;
 import com.diegolima.geekTech.models.Role;
 import com.diegolima.geekTech.models.User;
 import com.diegolima.geekTech.repository.UserRepository;
+import com.diegolima.geekTech.services.JwtService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

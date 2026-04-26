@@ -1,7 +1,7 @@
 package com.diegolima.geekTech.security;
 
 import com.diegolima.geekTech.repository.UserRepository;
-import com.diegolima.geekTech.usecase.JwtService;
+import com.diegolima.geekTech.services.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
