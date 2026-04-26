@@ -44,6 +44,10 @@ public class StreamingPlatform {
     @Column(length = 500)
     private String logo;
 
+    @Size(max = 500)
+    @Column(name = "logo_public_id", length = 500)
+    private String logoPublicId;
+
     @Builder.Default
     @OneToMany(mappedBy = "streamingPlatform")
     private List<AnimeStreamingAvailability> animeAvailabilities = new ArrayList<>();
