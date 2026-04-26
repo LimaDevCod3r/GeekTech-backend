@@ -23,3 +23,5 @@ admin:
   name: ${ADMIN_NAME}
   email: ${ADMIN_EMAIL}
   password: ${ADMIN_PASSWORD}
+cloudinary:
+  url: ${CLOUDINARY_URL}
