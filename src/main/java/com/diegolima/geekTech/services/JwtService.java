@@ -1,4 +1,4 @@
-package com.diegolima.geekTech.usecase;
+package com.diegolima.geekTech.services;
 
 
 import com.auth0.jwt.JWT;
